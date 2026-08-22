@@ -1,4 +1,9 @@
-# Importing generated assets into Godot
+# godot/import_generated
+
+> Scope note: Godot needs no engine-side importer script. Its built-in
+> glTF/GLB importer does the work, so this directory documents the contract
+> instead of shipping one. Adapter-owned SceneTree scripts used by other
+> operations live in `engine_adapters/godot/_scripts/`.
 
 Godot imports supported source resources when they are placed under `res://`.
 The adapter therefore stages a registered 3AGameFactory task artifact inside

@@ -47,7 +47,7 @@ does X", the other is "how our artifacts get in".
 |------|-----------|
 | `ue5/import_generated/import_mesh.py` | Unreal's Python |
 | `unity3d/import_generated/ImportGeneratedMesh.cs` | Unity Editor (`Assets/Editor/`) |
-| `godot/` public `GodotClient.assets` API | host Python launches Godot 4 `--headless --import` after safe staging |
+| `godot/import_generated/` (Godot built-in importer) | host Python launches Godot 4 `--headless --import` after safe staging |
 | `three_js/import_generated/import_mesh.mjs` | host Node, with the project's `three` installed |
 | `blender/import_generated/import_mesh.py` | a `bpy` interpreter (Blender app or the pip wheel) |
 | `scripts/import_generated_asset.py` | host Python — finds the editor, launches any importer, reads its JSON report |
