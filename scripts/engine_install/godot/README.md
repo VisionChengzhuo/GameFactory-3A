@@ -1,4 +1,6 @@
-# Automated Godot 4 installation and launchers
+# Godot Scripts
+
+The automated Godot 4 installer, plus project/asset/test/build/run launchers.
 
 This directory is the non-interactive entry point an AI agent should use. Do
 not begin with project creation or asset import: first discover/reuse or install

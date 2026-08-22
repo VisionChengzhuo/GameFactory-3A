@@ -204,7 +204,7 @@ artifacts/ui/<task_id>/
 ```
 
 `native/` is the cross-Engine UI boundary: for example
-`native/Plugins/GameUI/` in Unreal, `native/Assets/UI/` in Unity, or
+`native/Plugins/GameUI/` in Unreal, `native/Assets/UI/` in Unity,
 `native/addons/game_ui/` in Godot, or `native/src/components/` in Three.js.
 Upper layers must not assume Unreal.
 `native/` and `browser_play/` are source artifacts; product copies are

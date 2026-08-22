@@ -39,9 +39,9 @@ cannot produce `A3GAME_SMOKE_OK`.
 
 | Reference | Generated demonstration |
 | --- | --- |
-| `NeonDodge2D` | `my_code/AAAGameForge/test_data/outputs/game101/godot/` |
-| `SolarRally3D` | `my_code/AAAGameForge/test_data/outputs/game202/godot/` |
-| `OrbitPinball2D` | `my_code/AAAGameForge/test_data/outputs/game303/godot/` |
+| `NeonDodge2D` | `<REPO_PATH>/test_data/outputs/game101/godot/` |
+| `SolarRally3D` | `<REPO_PATH>/test_data/outputs/game202/godot/` |
+| `OrbitPinball2D` | `<REPO_PATH>/test_data/outputs/game303/godot/` |
 
 Those delivery trees mirror the corresponding reference (excluding the ignored
 `.godot/` cache). `work/gan/artifacts/game-provenance.json` records their content

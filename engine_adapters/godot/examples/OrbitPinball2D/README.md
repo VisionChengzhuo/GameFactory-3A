@@ -14,5 +14,5 @@ godot4 --headless --path . --script res://scripts/smoke.gd
 ```
 
 The reviewer demonstration copy is generated at
-`my_code/AAAGameForge/test_data/outputs/game303/godot/`; it mirrors this tree
+`<REPO_PATH>/test_data/outputs/game303/godot/`; it mirrors this tree
 apart from Godot's ignored `.godot/` import cache.
